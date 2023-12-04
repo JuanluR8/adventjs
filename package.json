@@ -5,6 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint **/*.js --fix",
+    "prepare": "husky install",
     "test": "vitest",
     "test:run": "vitest run"
   },
@@ -21,6 +24,8 @@
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vitest": "^0.3.10",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
     "standard": "^17.1.0",
     "ts-node": "^10.9.1",
     "typescript": "*",
