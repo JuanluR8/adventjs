@@ -1,50 +1,55 @@
 import { findFirstRepeated } from './findFirstRepeated'
 
-const testCases = [
+interface TestCase {
+  gifts: number[]
+  output: number
+}
+
+const testCases: TestCase[] = [
   {
-    input: [2, 1, 3, 5, 3, 2],
+    gifts: [2, 1, 3, 5, 3, 2],
     output: 3
   },
   {
-    input: [2, 2],
+    gifts: [2, 2],
     output: 2
   },
   {
-    input: [2, 4, 3, 5, 1],
+    gifts: [2, 4, 3, 5, 1],
     output: -1
   },
   {
-    input: [1],
+    gifts: [1],
     output: -1
   },
   {
-    input: [],
+    gifts: [],
     output: -1
   },
   {
-    input: [10, 20, 30],
+    gifts: [10, 20, 30],
     output: -1
   },
   {
-    input: [1, 2, 3, 4],
+    gifts: [1, 2, 3, 4],
     output: -1
   },
   {
-    input: [5, 1, 2, 3, 2, 5, 1],
+    gifts: [5, 1, 2, 3, 2, 5, 1],
     output: 2
   },
   {
-    input: [12, 20, 30, 11, 20, 12],
+    gifts: [12, 20, 30, 11, 20, 12],
     output: 20
   },
   {
-    input: [5, 1, 5, 1],
+    gifts: [5, 1, 5, 1],
     output: 5
   }
 ]
 
 describe('01 - findFirstRepeated', () => {
-  it.each(testCases)('should return $output', ({ input, output }) => {
-    expect(findFirstRepeated(input)).toBe(output)
+  it.each(testCases)('Test %#', ({ gifts, output }) => {
+    expect(findFirstRepeated(gifts)).toBe(output)
   })
 })
