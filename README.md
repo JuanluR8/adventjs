@@ -28,6 +28,7 @@ yarn test:coverage
 | 04  | Una caja dentro de otra                                 |     🌕          | [fitsInOneBox](/src/2022/challenge-04/fitsInOneBox.ts)        |
 | 05  | Optimizando viajes de Santa                             |     🔴          | [getMaxGifts](/src/2022/challenge-05/getMaxGifts.ts)          |
 | 06  | Creando adornos navideños                               |     🌕          | [createCube](/src/2022/challenge-06/createCube.ts)            |
+| 07  | Haciendo inventario de regalos                          |     🟢          | [getGiftsToRefill](/src/2022/challenge-07/getGiftsToRefill.ts)|
 
 ## 🧩 Challenges 2023
 
