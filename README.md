@@ -33,6 +33,7 @@ yarn test:coverage
 | 09  | Las luces locas de navidad                    |     🟢          | [countTime](/src/2022/challenge-09/countTime.ts)                |
 | 10  | El salto del trineo de Papa Noel              |     🌕          | [checkJump](/src/2022/challenge-10/checkJump.ts)                |
 | 11  | Papa Noel es Scrum Master                     |     🔴          | [getCompleted](/src/2022/challenge-11/getCompleted.ts)          |
+| 12  | Trineos eléctricos                            |     🌕          | [selectSleigh](/src/2022/challenge-12/selectSleigh.ts)          |
 
 ## 🧩 Challenges 2023
 
