@@ -40,7 +40,7 @@ const testCases: TestCase[] = [
   }
 ]
 
-describe('[2022] 04 - fitsInOneBox', () => {
+describe('[2022] 05 - getMaxGifts', () => {
   it.each(testCases)('Test %#', ({ giftsCities, maxGifts, maxCities, output }) => {
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toBe(output)
   })
