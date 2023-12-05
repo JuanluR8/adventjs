@@ -30,6 +30,7 @@ yarn test:coverage
 | 06  | Creando adornos navideños                     |     🌕          | [createCube](/src/2022/challenge-06/createCube.ts)              |
 | 07  | Haciendo inventario de regalos                |     🟢          | [getGiftsToRefill](/src/2022/challenge-07/getGiftsToRefill.ts)  |
 | 08  | Necesitamos un mecánico!                      |     🌕          | [checkPart](/src/2022/challenge-08/checkPart.ts)                |
+| 09  | Las luces locas de navidad                    |     🟢          | [countTime](/src/2022/challenge-09/countTime.ts)                |
 
 ## 🧩 Challenges 2023
 
