@@ -12,7 +12,7 @@ This is a repository with my solutions to the [AdventJS](https://adventjs.dev/) 
 | 04  | Dale la vuelta a los paréntesis       |     🟡          | [decode](/src/2023-04/decode.ts)                          |
 | 05  | El CyberTruck de Santa                |     🟡          | [cyberReindeer](/src/2023-05/cyberReindeer.ts)            |
 
-[^1] Difficulties legend: 🟢 Easy 🟡 Medium 🔴 Hard 🟣 Very hard
+[^1]: Difficulty: 🟢 Easy 🟡 Medium 🔴 Hard 🟣 Very hard
 
 ## 🧪 Setup and tests
 
