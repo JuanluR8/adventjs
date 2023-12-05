@@ -32,6 +32,7 @@ yarn test:coverage
 | 08  | Necesitamos un mecánico!                      |     🌕          | [checkPart](/src/2022/challenge-08/checkPart.ts)                |
 | 09  | Las luces locas de navidad                    |     🟢          | [countTime](/src/2022/challenge-09/countTime.ts)                |
 | 10  | El salto del trineo de Papa Noel              |     🌕          | [checkJump](/src/2022/challenge-10/checkJump.ts)                |
+| 11  | Papa Noel es Scrum Master                     |     🔴          | [getCompleted](/src/2022/challenge-11/getCompleted.ts)          |
 
 ## 🧩 Challenges 2023
 
