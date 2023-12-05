@@ -23,6 +23,7 @@ yarn test:coverage
 |  #  | Challenge                                               | Difficulty[^1]  | My Solution                                               |
 | :-: | :--------------------------------                       | :--------:      | ------------------------------------------------------:   |
 | 01  | ¡Automatizando envolver regalos de navidad!             |     🟢          | [wrapping](/src/2022/challenge-01/wrapping.ts)            |
+| 02  | Nadie quiere hacer horas extra                          |     🟢          | [countHours](/src/2022/challenge-02/countHours.ts)        |
 
 ## 🧩 Challenges 2023
 
