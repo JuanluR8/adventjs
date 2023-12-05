@@ -3,7 +3,8 @@ export function cyberReindeer (road: string, time: number): string[] {
 
   for (let t = 1; t < time; t++) {
     const barriersOpened = t >= 5
-    const sledIndex = Math.max(result[t - 1].indexOf('S'), 0)
+    const sledIndex = result[t - 1].indexOf('S')
+
     let nextRoad = result[result.length - 1].split('')
 
     if (barriersOpened) {
