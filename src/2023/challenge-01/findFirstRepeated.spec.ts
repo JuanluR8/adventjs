@@ -48,7 +48,7 @@ const testCases: TestCase[] = [
   }
 ]
 
-describe('01 - findFirstRepeated', () => {
+describe('[2023] 01 - findFirstRepeated', () => {
   it.each(testCases)('Test %#', ({ gifts, output }) => {
     expect(findFirstRepeated(gifts)).toBe(output)
   })

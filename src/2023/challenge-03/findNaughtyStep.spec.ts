@@ -34,7 +34,7 @@ const testCases: TestCase[] = [
   }
 ]
 
-describe('03 - findNaughtyStep', () => {
+describe('[2023] 03 - findNaughtyStep', () => {
   it.each(testCases)('Test %#', ({ original, modified, output }) => {
     expect(findNaughtyStep(original, modified)).toEqual(output)
   })

@@ -37,7 +37,7 @@ const testCases: TestCase[] = [
 
 ]
 
-describe('04 - decode', () => {
+describe('[2023] 04 - decode', () => {
   it.each(testCases)('Test %#', ({ message, output }) => {
     expect(decode(message)).toEqual(output)
   })

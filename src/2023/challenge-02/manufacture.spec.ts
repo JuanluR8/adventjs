@@ -29,7 +29,7 @@ const testCases: TestCase[] = [
   }
 ]
 
-describe('02 - manufacture', () => {
+describe('[2023] 02 - manufacture', () => {
   it.each(testCases)('Test %#', ({ gifts, materials, output }) => {
     expect(manufacture(gifts, materials)).toStrictEqual(output)
   })

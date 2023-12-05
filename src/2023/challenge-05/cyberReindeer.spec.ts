@@ -74,7 +74,7 @@ const testCases: TestCase[] = [
   }
 ]
 
-describe('05 - cyberReinder', () => {
+describe('[2023] 05 - cyberReinder', () => {
   it.each(testCases)('Test %#', ({ road, time, output }) => {
     const result = cyberReindeer(road, time)
 
