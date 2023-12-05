@@ -20,13 +20,14 @@ yarn test:coverage
 
 ## 🧩 Challenges 2022
 
-|  #  | Challenge                                               | Difficulty[^1]  | My Solution                                               |
-| :-: | :--------------------------------                       | :--------:      | ------------------------------------------------------:   |
-| 01  | ¡Automatizando envolver regalos de navidad!             |     🟢          | [wrapping](/src/2022/challenge-01/wrapping.ts)            |
-| 02  | Nadie quiere hacer horas extra                          |     🟢          | [countHours](/src/2022/challenge-02/countHours.ts)        |
-| 03  | Cuántas cajas de regalos lleva Papa Noel                |     🟢          | [distributeGifts](src/2022/challenge-03/distributeGifts.ts)        |
+|  #  | Challenge                                               | Difficulty[^1]  | My Solution                                                   |
+| :-: | :--------------------------------                       | :--------:      | ------------------------------------------------------:       |
+| 01  | ¡Automatizando envolver regalos de navidad!             |     🟢          | [wrapping](/src/2022/challenge-01/wrapping.ts)                |
+| 02  | Nadie quiere hacer horas extra                          |     🟢          | [countHours](/src/2022/challenge-02/countHours.ts)            |
+| 03  | Cuántas cajas de regalos lleva Papa Noel                |     🟢          | [distributeGifts](src/2022/challenge-03/distributeGifts.ts)   |
 | 04  | Una caja dentro de otra                                 |     🌕          | [fitsInOneBox](/src/2022/challenge-04/fitsInOneBox.ts)        |
-| 05  | Optimizando viajes de Santa                             |     🔴          | [getMaxGifts](/src/2022/challenge-05/getMaxGifts.ts)        |
+| 05  | Optimizando viajes de Santa                             |     🔴          | [getMaxGifts](/src/2022/challenge-05/getMaxGifts.ts)          |
+| 06  | Creando adornos navideños                               |     🌕          | [createCube](/src/2022/challenge-06/createCube.ts)            |
 
 ## 🧩 Challenges 2023
 
