@@ -9,6 +9,7 @@
     "lint:fix": "eslint **/*.js --fix",
     "prepare": "husky install",
     "test": "vitest",
+    "test:coverage": "vitest run --coverage",
     "test:run": "vitest run"
   },
   "keywords": [],
