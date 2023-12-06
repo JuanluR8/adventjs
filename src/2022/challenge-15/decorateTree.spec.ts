@@ -46,7 +46,7 @@ const testCases: TestCase[] = [
   }
 ]
 
-describe('[2022] 14 - getOptimalPath', () => {
+describe('[2022] 15 - decorateTree', () => {
   it.each(testCases)('Test %#', ({ base, output }) => {
     expect(decorateTree(base)).toStrictEqual(output)
   })

@@ -37,6 +37,7 @@ yarn test:coverage
 | 13  | Backup de los archivos de Papa Noel           |     🟢          | [getFilesToBackup](/src/2022/challenge-13/getFilesToBackup.ts)  |
 | 14  | El mejor camino                               |     🌕          | [getOptimalPath](/src/2022/challenge-14/getOptimalPath.ts)      |
 | 15  | Decorando el arbol                            |     🌕          | [decorateTree](/src/2022/challenge-15/decorateTree.ts)          |
+| 16  | Arreglando las cartas de Papá Noel            |     🔴          | [fixLetter](/src/2022/challenge-16/fixLetter.ts)                |
 
 ## 🧩 Challenges 2023
 
