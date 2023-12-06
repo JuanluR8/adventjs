@@ -11,11 +11,14 @@ yarn install
 # run test in watch mode
 yarn test
 
-# run test without watch
+# test ci
 yarn test:run
 
-# run test with coverage report
+# tests with coverage
 yarn test:coverage
+
+# tests with verbosity
+yarn test:verbose
 ```
 
 ## 🧩 Challenges 2022
@@ -39,7 +42,7 @@ yarn test:coverage
 | 15  | Decorando el arbol                            |     🌕          | [decorateTree](/src/2022/challenge-15/decorateTree.ts)          |
 | 16  | Arreglando las cartas de Papá Noel            |     🔴          | [fixLetter](/src/2022/challenge-16/fixLetter.ts)                |
 
-## 🧩 Challenges 2023
+🧩 Challenges 2023
 
 |  #  | Challenge                             | Difficulty[^1]  | My Solution                                                           |
 | :-: | :--------------------------------     | :--------:      | ------------------------------------------------------:               |
