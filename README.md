@@ -35,6 +35,7 @@ yarn test:coverage
 | 11  | Papa Noel es Scrum Master                     |     🔴          | [getCompleted](/src/2022/challenge-11/getCompleted.ts)          |
 | 12  | Trineos eléctricos                            |     🌕          | [selectSleigh](/src/2022/challenge-12/selectSleigh.ts)          |
 | 13  | Backup de los archivos de Papa Noel           |     🟢          | [getFilesToBackup](/src/2022/challenge-13/getFilesToBackup.ts)  |
+| 14  | El mejor camino                               |     🌕          | [getOptimalPath](/src/2022/challenge-14/getOptimalPath.ts)      |
 
 ## 🧩 Challenges 2023
 
