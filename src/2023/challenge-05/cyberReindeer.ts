@@ -1,22 +1,19 @@
 export function cyberReindeer (road: string, time: number): string[] {
   const result = [road]
+  let lastChar = '.'
 
   for (let t = 1; t < time; t++) {
-    const barriersOpened = t >= 5
-    const sledIndex = result[t - 1].indexOf('S')
+    if (t === 5) road = road.replaceAll('|', '*')
 
-    let nextRoad = result[result.length - 1].split('')
+    const matches = road.match(/S[*.]/g)
 
-    if (barriersOpened) {
-      nextRoad = nextRoad.join('').replaceAll('|', '*').split('')
+    if (matches !== null) {
+      const [firstMatch] = matches
+      road = road.replace(firstMatch, lastChar + 'S')
+      lastChar = firstMatch[1]
     }
 
-    if (road[sledIndex + 1] !== '|' || barriersOpened) {
-      nextRoad[sledIndex] = road[sledIndex] === '|' ? '*' : '.'
-      nextRoad[sledIndex + 1] = 'S'
-    }
-
-    result.push(nextRoad.join(''))
+    result.push(road)
   }
 
   return result
