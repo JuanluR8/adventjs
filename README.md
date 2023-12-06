@@ -47,5 +47,6 @@ yarn test:coverage
 | 03  | El elfo travieso                      |     🟢          | [findNaughtyStep](/src/2023/challenge-03//findNaughtyStep.ts)         |
 | 04  | Dale la vuelta a los paréntesis       |     🟡          | [decode](/src/2023/challenge-04/decode.ts)                            |
 | 05  | El CyberTruck de Santa                |     🟡          | [cyberReindeer](/src/2023/challenge-05/cyberReindeer.ts)              |
+| 06  | Los renos a prueba                    |     🟢          | [maxDistance](/src/2023/challenge-06/maxDistance.ts)                  |
 
 [^1]: Difficulty: 🟢 Easy 🟡 Medium 🔴 Hard 🟣 Very hard
