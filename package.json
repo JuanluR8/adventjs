@@ -2,21 +2,26 @@
   "name": "adventjs",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "adventjs challenges by @midudev",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js",
-    "lint:fix": "eslint **/*.js --fix",
+    "lint": "eslint **/*.ts",
+    "lint:fix": "eslint **/*.ts --fix",
     "prepare": "husky install",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "adventjs",
+    "adventjs-2022",
+    "adventjs-2023"
+  ],
+  "author": "JuanluR8",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.10.3",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@vitest/coverage-v8": "^0.34.6",
     "eslint": "^8.0.1",
