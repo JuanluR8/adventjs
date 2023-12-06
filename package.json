@@ -8,9 +8,10 @@
     "lint": "eslint **/*.ts",
     "lint:fix": "eslint **/*.ts --fix",
     "prepare": "husky install",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "test:run": "vitest run",
+    "test": "vitest --config ./vitest.config.ts",
+    "test:coverage": "yarn test:run --coverage",
+    "test:run": "yarn test run",
+    "test:verbose": "yarn test --reporter=verbose",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
